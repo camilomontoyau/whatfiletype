@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import fileType from 'file-type';
+const fileType = require('file-type');
 const { fileTypeFromFile } = fileType;
 
 let filePath = '';

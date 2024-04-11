@@ -1,5 +1,6 @@
 #!/usr/bin/env node
-import { fileTypeFromFile } from 'file-type';
+import fileType from 'file-type';
+const { fileTypeFromFile } = fileType;
 
 let filePath = '';
 if (process.argv[2]) {

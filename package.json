@@ -1,8 +1,9 @@
 {
-  "name": "file-type",
+  "name": "whatfiletype",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "fileType.mjs",
+  "bin": "fileType.mjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,6 +11,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "file-type": "^19.0.0"
+    "file-type": "^16.5.3"
   }
 }
